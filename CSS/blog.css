@@ -1,0 +1,53 @@
+.blog-img-box{
+    height: 55vh;
+    border: 3px solid black;
+    border-radius: 1rem;
+    width: 55vw;
+    background: url('../IMG/a-2.jpg') no-repeat center center/cover;
+}
+
+.blog-img-box-2{
+    height: 55vh;
+    border: 3px solid black;
+    border-radius: 1rem;
+    width: 55vw;
+    background: url('../IMG/a-4.jpg') no-repeat center center/cover;
+}
+
+.blog-content{
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+
+.blog-paras{
+    font-size: 18px;
+    font-family: 'Ubuntu' , sans-serif;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+
+.blog-meta{
+    /* background-color: cyan; */
+    margin: 1rem auto;
+    justify-content: space-between;
+}
+
+.author-info div{
+    font-family: var(--btn-font);
+    font-size: 17px;
+    padding: 2px 2rem;
+}
+
+.author-info div:nth-child(1){
+    font-size: 18px;
+}
+
+.author-info div:nth-child(2){
+    font-family: var(--sub-text-font);
+}
+
+.social{
+    padding-right: 3rem;
+}

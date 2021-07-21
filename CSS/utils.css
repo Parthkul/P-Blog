@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@500&family=Poppins:wght@600&family=Roboto+Condensed&family=Ubuntu+Condensed&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+:root {
+  --main-bg-color: #ddecff5d;
+  --nav-font: "Baloo Bhaina 2", cursive;
+  --footer-font: "Baloo Bhaina 2", cursive;
+  --sub-text-font: "Roboto Condensed", sans-serif;
+  --btn-font: "Poppins", sans-serif;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.max-width-1 {
+  max-width: 80vw;
+}
+
+.max-width-2 {
+  max-width: 60vw;
+}
+
+.my-1{
+  margin: 3rem auto;
+}
+
+.m-auto {
+  margin: auto;
+}
+
+.btn {
+  padding: 4px 8px;
+  border: 3px solid black;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  font-family: var(--btn-font);
+  outline: none;
+  transition: all 0.3s ;
+}
+
+.btn:hover {
+    color: rgb(255, 255, 255);
+    background-color: brown;
+}
+
+.form-input {
+  outline: none;
+  padding: 1px 4px;
+  border: 3px solid #000000bd;
+  padding-top: 4px;
+  border-radius: 8px;
+  width: 12vw;
+  font-size: 14px;
+  background-color: #ffe2ee61;
+  margin: 0 1rem;
+  font-family: var(--footer-font);
+  color: black;
+  font-weight: bold;
+}
+
+.all-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.contact-input{
+  outline: none;
+  padding: 1px 4px;
+  border: 3px solid #000000bd;
+  padding-top: 4px;
+  border-radius: 8px;
+  font-size: 15.56px;
+  background-color: #ffe2ee83;
+  width: 32vw;
+  margin: 9px 1rem;
+  font-family: var(--footer-font);
+  color: black;
+  font-weight: bold;
+}
+
+
+.article-heading{
+  font-family: var(--nav-font);
+  padding-left: 25px;
+}
+
+
+.blog-main-heading{
+  font-family: var(--nav-font);
+  margin-top: 1rem;
+}
